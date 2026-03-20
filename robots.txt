@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://henmohr.github.io/site-publi.git/sitemap.xml
