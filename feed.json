@@ -1,27 +1,13 @@
 {
     "version": "https://jsonfeed.org/version/1",
-    "title": "henrique blog",
+    "title": "Projeto Esperanca/Cooesperanca - FEICOOP",
     "description": "",
-    "home_page_url": "https://henmohr.github.io/site-publi.git",
-    "feed_url": "https://henmohr.github.io/site-publi.git/feed.json",
+    "home_page_url": "https://henmohr.github.io/site-publi/",
+    "feed_url": "https://henmohr.github.io/site-publi//feed.json",
     "user_comment": "",
     "author": {
         "name": "henrique"
     },
     "items": [
-        {
-            "id": "https://henmohr.github.io/site-publi.git/post-01.html",
-            "url": "https://henmohr.github.io/site-publi.git/post-01.html",
-            "title": "Post 01",
-            "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus placerat per odio tortor aliquam luctus molestie inceptos class malesuada mauris sapien. Sem rhoncus vitae urna class imperdiet urna velit arcu placerat conubia nec nostra. Ultricies eros velit mus quam molestie tortor tellus tempor aliquam quam&hellip;",
-            "content_html": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus placerat per odio tortor aliquam luctus molestie inceptos class malesuada mauris sapien. Sem rhoncus vitae urna class imperdiet urna velit arcu placerat conubia nec nostra. Ultricies eros velit mus quam molestie tortor tellus tempor aliquam quam erat laoreet. Nam maecenas erat parturient velit blandit curae facilisi ridiculus lorem odio himenaeos semper. Hac nulla sociis ipsum condimentum velit mi montes lorem ante mattis consectetur senectus. Cum dapibus fusce vehicula felis nam curae tellus maecenas dignissim elit eget nam.</p>",
-            "author": {
-                "name": "henrique"
-            },
-            "tags": [
-            ],
-            "date_published": "2026-03-20T16:53:35-03:00",
-            "date_modified": "2026-03-20T16:53:35-03:00"
-        }
     ]
 }
