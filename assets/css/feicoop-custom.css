@@ -41,7 +41,7 @@ p {
 }
 
 .logo__mark {
-  background: linear-gradient(135deg, var(--dark) 0, var(--color) 100%);
+  background: transparent;
 }
 
 .navbar__menu > li > a,
@@ -161,6 +161,82 @@ p {
   padding-bottom: 1.2rem;
 }
 
+.hero--inscricoes {
+  padding-bottom: clamp(2rem, 1.6rem + 1.6vw, 3.5rem);
+}
+
+.inscricoes-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1.25fr) minmax(18rem, 0.75fr);
+  gap: clamp(1.5rem, 1.1rem + 1.8vw, 3rem);
+  align-items: center;
+}
+
+.inscricoes-hero__content {
+  max-width: 44rem;
+}
+
+.inscricoes-hero__lead {
+  font-size: clamp(1.08rem, 1rem + 0.34vw, 1.28rem);
+  color: var(--gray);
+}
+
+.inscricoes-card {
+  padding: 1.8rem;
+  border-radius: calc(var(--border-radius) * 1.3);
+  background:
+    linear-gradient(180deg, rgba(176, 170, 92, 0.2), rgba(255, 255, 255, 0.96)),
+    linear-gradient(135deg, rgba(74, 135, 121, 0.12), rgba(74, 135, 121, 0));
+  border: 1px solid rgba(176, 170, 92, 0.28);
+  box-shadow: 0 18px 42px rgba(38, 73, 46, 0.08);
+}
+
+.inscricoes-card__kicker {
+  margin: 0;
+  color: var(--accent-soft);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.inscricoes-card__date {
+  display: block;
+  margin-top: 0.45rem;
+  color: var(--color);
+  font-family: var(--heading-font);
+  font-size: clamp(2rem, 1.7rem + 1vw, 3rem);
+  line-height: 1;
+}
+
+.inscricoes-card__text {
+  margin-top: 0.9rem;
+  color: var(--dark);
+  max-width: 24ch;
+}
+
+.inscricoes-content {
+  padding-top: 0.5rem;
+}
+
+.inscricoes-hero__actions {
+  margin-top: 1.2rem;
+}
+
+@media all and (max-width: 47.9375em) {
+  .inscricoes-hero {
+    grid-template-columns: 1fr;
+  }
+
+  .inscricoes-card {
+    max-width: 26rem;
+  }
+
+  .homepage-registration {
+    grid-template-columns: 1fr;
+  }
+}
+
 .section {
   padding: clamp(2.6rem, 1.6rem + 2.4vw, 5.5rem) 0;
 }
@@ -172,6 +248,11 @@ p {
 .section--quicklinks {
   padding-top: 0.5rem;
   padding-bottom: 1rem;
+}
+
+.section--registration-callout {
+  padding-top: 0.4rem;
+  padding-bottom: 1.3rem;
 }
 
 .section__text {
@@ -242,6 +323,58 @@ p {
     linear-gradient(90deg, rgba(74, 135, 121, 0.05), rgba(74, 135, 121, 0));
   border: 1px solid rgba(176, 170, 92, 0.22);
   box-shadow: 0 14px 36px rgba(38, 73, 46, 0.05);
+}
+
+.homepage-registration {
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) minmax(14rem, 0.8fr);
+  gap: 1.5rem;
+  align-items: center;
+  padding: 1.7rem;
+  border-radius: calc(var(--border-radius) * 1.2);
+  background:
+    linear-gradient(180deg, rgba(176, 170, 92, 0.18), rgba(255, 255, 255, 0.94)),
+    linear-gradient(100deg, rgba(74, 135, 121, 0.12), rgba(74, 135, 121, 0));
+  border: 1px solid rgba(176, 170, 92, 0.24);
+  box-shadow: 0 14px 36px rgba(38, 73, 46, 0.05);
+}
+
+.homepage-registration__content > :first-child,
+.homepage-registration__content h2 {
+  margin-top: 0;
+}
+
+.homepage-registration__content .section__text {
+  max-width: 42rem;
+}
+
+.homepage-registration__actions {
+  margin-top: 1.15rem;
+}
+
+.homepage-registration__date {
+  padding: 1.2rem 1.25rem;
+  border-radius: calc(var(--border-radius) * 1.05);
+  background: rgba(255, 255, 255, 0.84);
+  border: 1px solid rgba(74, 135, 121, 0.14);
+}
+
+.homepage-registration__date span {
+  display: block;
+  color: var(--accent-soft);
+  font-size: 0.76rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.homepage-registration__date strong {
+  display: block;
+  margin-top: 0.45rem;
+  color: var(--color);
+  font-family: var(--heading-font);
+  font-size: clamp(1.7rem, 1.45rem + 0.9vw, 2.5rem);
+  line-height: 1.05;
 }
 
 .projects-grid {
