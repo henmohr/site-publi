@@ -1,4 +1,17 @@
 :root {
+  --heading-font: 'Maven Pro', sans-serif;
+  --headings-weight: 700;
+}
+
+@font-face {
+  font-family: 'Maven Pro';
+  src: url('../dynamic/fonts/mavenpro/mavenpro.woff2') format('woff2');
+  font-display: swap;
+  font-style: normal;
+  font-weight: 400 900;
+}
+
+:root {
   --accent-soft: #4a8779;
 }
 
